@@ -1,4 +1,4 @@
-# Check Strict Superset
+# https://www.hackerrank.com/challenges/py-check-strict-superset/problem
 
 a = set(map(str, input().split(' ')))
 ss = []

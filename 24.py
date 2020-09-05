@@ -1,4 +1,4 @@
-# Inner and Outer
+# https://www.hackerrank.com/challenges/np-inner-and-outer/problem
 
 import numpy as np
 a = np.array(input().split(), int)

@@ -1,4 +1,4 @@
-# Zeros and Ones
+# https://www.hackerrank.com/challenges/np-zeros-and-ones/problem
 
 import numpy
 nums = tuple(map(int, input().split()))

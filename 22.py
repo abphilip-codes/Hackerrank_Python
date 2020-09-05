@@ -1,4 +1,4 @@
-# Mean, Var, and Std
+# https://www.hackerrank.com/challenges/np-mean-var-and-std/problem
 
 import numpy as np 
 

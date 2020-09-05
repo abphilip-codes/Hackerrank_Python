@@ -1,4 +1,4 @@
-# Dot and Cross
+# https://www.hackerrank.com/challenges/np-dot-and-cross/problem
 
 import numpy
 a=int(input())

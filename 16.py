@@ -1,4 +1,4 @@
-# Check Subset
+# https://www.hackerrank.com/challenges/py-check-subset/problem
 
 for i in range(int(input())):
     a = input()

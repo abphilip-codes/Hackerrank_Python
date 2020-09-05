@@ -1,4 +1,4 @@
-# Array Mathematics
+# https://www.hackerrank.com/challenges/np-array-mathematics/problem
 
 import numpy as np
 n, m = map(int, input().split())

@@ -1,4 +1,4 @@
-# Polynomials
+# https://www.hackerrank.com/challenges/np-polynomials/problem
 
 import numpy
 a = list(map(float,input().split()));

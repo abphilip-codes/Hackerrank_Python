@@ -1,4 +1,4 @@
-# Sum and Prod
+# https://www.hackerrank.com/challenges/np-sum-and-prod/problem
 
 import numpy
 N, M = map(int, input().split())
