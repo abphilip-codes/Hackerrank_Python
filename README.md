@@ -1,1 +1,1 @@
-# Hackerrank_Python
+# Hackerrank: Python
