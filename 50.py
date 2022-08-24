@@ -1,6 +1,7 @@
 # https://www.hackerrank.com/challenges/exceptions/problem
 
-import calendar as cal
-
-l = list(map(int, reversed(str(input()).split())))
-print(list(cal.day_name)[cal.weekday(l[0], l[2], l[1])].upper())
+for _ in range(1, int(input())+1):
+    l = input().split()
+    try: print(int(l[0])//int(l[1]))
+    except ValueError as e: print('Error Code:', e)
+    except ZeroDivisionError as e: print('Error Code:', e)
