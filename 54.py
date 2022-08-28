@@ -10,6 +10,6 @@ b = set(map(int, input().split()))
 k = 0
 
 for z, f in c.items():
-    if (z in a): k+=f
-    if (z in b): k-=f
+    if(z in a): k+=f
+    if(z in b): k-=f
 print(k)
