@@ -1,15 +1,12 @@
-# https://www.hackerrank.com/challenges/no-idea/problem
+# https://www.hackerrank.com/challenges/py-collections-ordereddict/problem
 
-from collections import Counter
+from collections import OrderedDict as od
 
-n, m = map(int, input().split())
+n, o, a = int(input()), od(), []
+for _ in range(n):
+    k = input().split()
+    a.append([" ".join(k[:len(k)-1]), int(k[len(k) - 1])])
+    o.update({" ".join(k[:len(k)-1]): int(k[len(k) - 1])})
 
-c = Counter(list(map(int, input().split())))
-a = set(map(int, input().split()))
-b = set(map(int, input().split()))
-k = 0
-
-for z, f in c.items():
-    if(z in a): k+=f
-    if(z in b): k-=f
-print(k)
+for z in a: o[z[0]] = a.count(z) * z[1]
+for z in o.keys(): print(z, str(o[z]))
