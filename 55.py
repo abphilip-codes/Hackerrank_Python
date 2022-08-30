@@ -1,5 +1,12 @@
-# https://www.hackerrank.com/challenges/symmetric-difference/problem
+# https://www.hackerrank.com/challenges/py-collections-ordereddict/problem
 
-x, a = int(input()), set(map(int,input().split()))
-y, b = int(input()), set(map(int,input().split()))
-for z in sorted(a.symmetric_difference(b)): print(z)
+from collections import OrderedDict as od
+
+n, o, a = int(input()), od(), []
+for _ in range(n):
+    k = input().split()
+    a.append([" ".join(k[:len(k)-1]), int(k[len(k) - 1])])
+    o.update({" ".join(k[:len(k)-1]): int(k[len(k) - 1])})
+
+for z in a: o[z[0]] = a.count(z) * z[1]
+for z in o.keys(): print(z, str(o[z]))
