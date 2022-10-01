@@ -2,4 +2,4 @@
 
 import re
 a = re.findall(r"(?<=[^aeiouAEIOU])([aeiouAEIOU]{2,})(?=[^aeiouAEIOU])", input())
-print(*a if(a) else -1, sep="\n")
+print(-1) if(not a) else print(*a, sep="\n")
