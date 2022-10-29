@@ -1,4 +1,4 @@
-# https://www.hackerrank.com/challenges/python-loops/problem
+# https://www.hackerrank.com/challenges/write-a-function/problem
 
 def is_leap(year):
     leap = False
