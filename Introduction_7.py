@@ -7,4 +7,3 @@ if __name__ == '__main__':
         i = str(j)
         s=s+i
     print(s)
-
