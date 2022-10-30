@@ -12,4 +12,3 @@ if __name__ == '__main__':
                 if(a+b+c!=n):
                     all.append([a,b,c])
     print(all)
-
