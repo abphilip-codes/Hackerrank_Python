@@ -7,4 +7,3 @@ if __name__ == '__main__':
     while max(l) == b:
         l.remove(max(l))
     print (max(l))
-
