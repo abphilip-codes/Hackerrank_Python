@@ -15,5 +15,3 @@ if __name__ == '__main__':
     sl.sort() 
     for a in sl: 
         print(a)
-
-
