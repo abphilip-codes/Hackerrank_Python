@@ -6,4 +6,3 @@ for i in range(int(input())):
     c = input()
     d = set(input().split())
     print(b.issubset(d))
-
