@@ -11,4 +11,3 @@ for i in range(0,s):
     dict[a]+=1
 print(len(dict.keys()))
 print(*dict.values())
-
