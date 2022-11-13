@@ -16,7 +16,6 @@ def score_words(words):
             score += 1
     return score
 
-
 n = int(input())
 words = input().split()
 print(score_words(words))
