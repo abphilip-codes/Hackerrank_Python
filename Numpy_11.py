@@ -14,4 +14,3 @@ np.set_printoptions(legacy='1.13')
 print(np.mean(b, axis = 1))
 print(np.var(b, axis = 0))
 print(np.std(b))
-
